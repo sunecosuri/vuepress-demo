@@ -1,0 +1,16 @@
+{
+  "name": "vuepress-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "ssh://git@github.com/sunecosuri/vuepress-demo.git",
+  "author": "sunecosuri<sunecosuri@gmail.com>",
+  "scripts": {
+	  "docs:dev": "vuepress dev docs",
+	  "docs:build": "vuepress build docs"
+  },
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "vuepress": "^0.3.1"
+  }
+}
